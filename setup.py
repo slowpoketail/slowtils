@@ -12,8 +12,10 @@ setup(
     version="0.1",
     packages=[
         "slowtils",
-        "slowtils.file",
         "slowtils.func",
+    ],
+    py_modules = [
+        "slowtils.file",
     ],
     classifiers=[
         "Programming Language :: Python :: 3",
